@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
-}
+:root {
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  /* Colors: */
+  --unnamed-color-222222: #222222;
+  --unnamed-color-333333: #333333;
+  
+  /* Font/text values */
+  --unnamed-font-family-montserrat: Montserrat;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-600: 600px;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-weight-medium: medium;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-24: 24px;
+  --unnamed-font-size-36: 36px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-character-spacing-0-28: 0.28px;
+  --unnamed-character-spacing-0-48: 0.48px;
+  --unnamed-character-spacing-0-32: 0.32px;
+  --unnamed-line-spacing-30: 30px;
+  --unnamed-line-spacing-34: 34px;
+  --unnamed-line-spacing-46: 46px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* Character Styles */
+  .unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-montserrat);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-36);
+  line-height: var(--unnamed-line-spacing-46);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-222222);
   }
-  to {
-    transform: rotate(360deg);
+  .unnamed-character-style-2 {
+  font-family: var(--unnamed-font-family-montserrat);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-600);
+  font-size: var(--unnamed-font-size-36);
+  line-height: var(--unnamed-line-spacing-46);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-222222);
   }
-}
+  .unnamed-character-style-3 {
+  font-family: var(--unnamed-font-family-montserrat);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-24);
+  line-height: var(--unnamed-line-spacing-34);
+  letter-spacing: var(--unnamed-character-spacing-0-48);
+  color: var(--unnamed-color-333333);
+  }
+  .unnamed-character-style-4 {
+  font-family: var(--unnamed-font-family-montserrat);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-medium);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-30);
+  letter-spacing: var(--unnamed-character-spacing-0-32);
+  color: var(--unnamed-color-222222);
+  }
+  .unnamed-character-style-5 {
+  font-family: var(--unnamed-font-family-montserrat);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-30);
+  letter-spacing: var(--unnamed-character-spacing-0-28);
+  color: var(--unnamed-color-222222);
+  }

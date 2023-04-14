@@ -1,0 +1,58 @@
+/* Home.css */
+.home {
+    height: 100vh; /* Set height to full viewport height */
+    background-color: white
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home__content {
+    position: relative;
+    text-align: center;
+  }
+  
+  .home__image {
+    width: 70%;
+  }
+  
+  
+  .home__title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .home__subtitle {
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .home__buttons {
+    margin-top: 2rem;
+  }
+  
+  .home__button {
+    background-color: #31548F;
+    color: #fff;
+    padding: 0.9rem 2rem;
+    margin: 0 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .home__button-b{
+    background-color: white;
+    color: #31548F;
+    padding: 0.9rem 2rem;
+    margin: 0 1rem;
+    border-radius: 5px;
+    border-color: #31548F;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  

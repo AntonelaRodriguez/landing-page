@@ -1,0 +1,35 @@
+.section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 40%;
+  }
+  
+  .paragraph {
+    margin-top: 0.5rem;
+    width: 80%;
+  }
+  
+  .button {
+    background-color: white;
+    color: #31548F;
+    padding: 0.9rem 2rem;
+    border-radius: 5px;
+    border-color: #31548F;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
